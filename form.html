@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="css\stl06.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2558937810337498"
+     crossorigin="anonymous"></script>
+
+    <title>Petonia - Поиск питомцев</title>
+
+    <link rel="icon" type="image/x-icon" href="images\ico.ico">
+</head>
+<body>
+<nav class="navbar navbar-dark bg-success ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images\logo.png" alt="" height="32" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Войти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Регистрация</a>
+                </li>
+                <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Карта</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="form.html">Добавить объявление</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="board.html">Объявления</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partners.html">Партнерам</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ContentBlock -->
+
+<div class="marker_form">
+    <form method="post" enctype="multipart/form-data">
+        <div class="container mt-3">
+            <div class="row mb-3">
+                <label for="search" class="col-sm-2 col-form-label">Категория:</label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Выбрать...</option>
+                        <option value="1">Ищу</option>
+                        <option value="2">Нашел(а)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="animal" class="col-sm-2 col-form-label">Питомец:</label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Выбрать...</option>
+                        <option value="1">Кошка</option>
+                        <option value="2">Собака</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="name" class="col-sm-2 col-form-label">Имя:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Иван" aria-label="name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="telephone" class="col-sm-2 col-form-label">Телефон:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="+7 123 123‒45‒67" aria-label="telephone">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="street" class="col-sm-2 col-form-label">Местоположение:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Место/Улица, дом" aria-label="street">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="city" class="col-sm-2 col-form-label">Город:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Москва" aria-label="city">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="region" class="col-sm-2 col-form-label">Область:</label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Выбрать...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="country" class="col-sm-2 col-form-label">Страна:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Россия" aria-label="street">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="comment" class="col-sm-2 col-form-label">Комментарий:</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="photo" class="col-sm-2 col-form-label">Фотография:</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+            </div>
+            <button class="btn btn-danger" type="reset"><i class="fa fa-times" aria-hidden="true"></i></button>
+            <button class="btn btn-success" type="button"><i class="fa fa-check" aria-hidden="true"></i></button>
+    </form>
+</div>
+</div>
+
+<!-- EndBlock -->
+
+<div class="container mt-3">
+    <footer class="pt-4 my-md-5 pt-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col order-first">
+                    <h5>Материалы</h5>
+                    <p>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a>
+                        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                    <a href='https://ru.freepik.com/vectors/watercolor'>Watercolor вектор создан(а) rawpixel.com -
+                        ru.freepik.com</a><br>
+                    <a href='https://ru.freepik.com/vectors/background'>Background вектор создан(а) freepik -
+                        ru.freepik.com</a><br>
+                    <div>Icons made by <a href="https://www.shutterstock.com/ru/g/Paranyu" title="Paranyu">Paranyu</a>
+                        from <a href="https://www.shutterstock.com/ru/" title="Shutterstock">www.shutterstock.com</a>
+                    </div>
+                    </p>
+                </div>
+                <div class="col center-footer-col">
+                    <h5>О нас</h5>
+                    <p>Для вопросов и предложений обращайтесь на <span class="footer-green">petoniapets@mail.com</span>
+                    </p>
+                    <p>© 2021 - 2022, "Petonia - Поиск питомцев"</p>
+                </div>
+
+                <div class="col order-last">
+                    <h5>Контакты</h5>
+                    <div class="links">
+                        <a href="#"><h2><i class="fa fa-vk" aria-hidden="true"></i></h2></a>
+                        <a href="#"><h2><i class="fa fa-twitter-square"
+                                                                         aria-hidden="true"></i></h2></a>
+                        <a href="#"><h2><i class="fa fa-facebook-square"
+                                                                               aria-hidden="true"></i></h2></a>
+                        <a href="#"><h2><i class="fa fa-instagram"
+                                                                                 aria-hidden="true"></i></h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://use.fontawesome.com/5b3f801c99.js"></script>
+<script src="https://use.fontawesome.com/f4be3830e0.js"></script>
+</body>
+</html>
